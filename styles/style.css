@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Source+Sans+Pro:wght@700&display=swap');
+
+:root {
+    --blue: #266EFD;
+}
+
+.container {
+    margin: 0 3%;
+}
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--blue);
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+}
+
+.top-page {
+    background-image: url("../images/hero-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    margin-top: 10px;
+    height: 35px;
+}
+
+.nav-logo a {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    height: 35px;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-mobile-btn img {
+    width: 40px;
+    height: 54px;
+}
+
+.top-page-heading {
+    margin-top: 50px;
+}
+
+.top-page-heading h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.top-page-heading p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.top-page-heading-btn {
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.main-page-button {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-page-heading {
+    margin: 70px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page-offer p {
+    color: gray;
+}
+
+.offer-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.offer-span {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.offer-span span {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.main-page-offer p:first-of-type{
+    font-size: 18px;
+}
+
+.offer-text {
+    margin-top: 30px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.main-page-go-to-offer-btn {
+    background-color: var(--blue);
+    border-radius: 5px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    width: 45px;
+    height: 43px;
+    box-shadow: 0px 3px 17px#3876F1;
+    float: right;
+    margin: -120px 30px 0 0;
+}
+.offer-line {
+    width: 90%;
+    color: gray;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,72 @@
+.container {
+    width: 1640px;
+    margin:0 auto;
+}
+
+.top-page {
+    height: 540px;
+}
+
+nav {
+    padding-top: 50px;
+}
+
+.nav-logo {
+    margin-bottom: 90px;
+}
+
+.nav-links {
+    display: initial;
+    width: 350px;
+    height: 20px;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+}
+
+.nav-links-btn {
+    padding: 13px 25px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.nav-mobile-btn {
+    display: none;
+}
+
+.main-page-go-to-offer-btn {
+    position: relative;
+    top: 330px;
+    right: 144px;
+}
+
+.main-page-offer {
+    width: 27%;
+    padding-right: 100px;
+    border-right: 1px solid gray;
+}
+
+.main-page-offer:last-of-type {
+    border: none;
+    padding: 0;
+}
+
+.main-page-go-to-offer-btn:last-of-type {
+    position: relative;
+    top: 330px;
+    right: 42px;
+}
+
+.main-page-offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-line {
+    display: none;
+}
