@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="Group_7" data-name="Group 7" transform="translate(-140 -1100)">
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(140 1100)" fill="#fff" stroke="#b9b9b9" stroke-width="1">
+      <rect width="91" height="91" rx="45.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="90" height="90" rx="45" fill="none"/>
+    </g>
+    <path id="icon-briefcase" d="M10.333,8.556V5.778A2.786,2.786,0,0,1,13.111,3h5.556a2.778,2.778,0,0,1,2.778,2.778V8.556H27a2.778,2.778,0,0,1,2.778,2.778V25.222A2.778,2.778,0,0,1,27,28H4.778A2.778,2.778,0,0,1,2,25.222V11.333A2.786,2.786,0,0,1,4.778,8.556Zm11.111,2.778H10.333V25.222H21.444Zm2.778,0V25.222H27V11.333Zm-16.667,0H4.778V25.222H7.556Zm5.556-2.778h5.556V5.778H13.111Z" transform="translate(170 1130)" fill="#141414" opacity="0.6"/>
+  </g>
+</svg>
