@@ -84,3 +84,19 @@ nav {
     justify-content: space-between;
     width: 100%;
 }
+
+.third-section-text {
+    background-color: black;
+}
+
+.third-section-p {
+    width: 35%;
+}
+
+form input:first-of-type {
+    width: 20%;
+}
+
+form input:last-of-type {
+    width: 10%;
+}

@@ -163,10 +163,40 @@ nav .container {
 .second-section-icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
 }
 
 .icon {
     justify-self: center;
     margin-top: 15px;
     text-align: center;
+}
+
+.third-section-text {
+    background-image: url(../images/Newsletter-image.png);
+    background-position: right;
+    padding: 60px;
+    color: white;
+}
+
+.third-section-p {
+    font-size: 15px;
+    width: 80%;
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+form input:first-of-type {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 50%;
+    margin-right: 10px;
+}
+
+form input:last-of-type {
+    background-color: var(--blue);
+    padding: 10px;
+    width: 20%;
+    border-radius: 3px;
 }
