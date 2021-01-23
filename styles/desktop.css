@@ -35,6 +35,11 @@ nav {
 
 .nav-links a {
     color: white;
+    transition: 0.5s all;
+}
+
+.nav-links a:hover {
+    color: var(--blue);
 }
 
 .nav-links-btn {
@@ -85,8 +90,8 @@ nav {
     width: 100%;
 }
 
-.third-section-text {
-    background-color: black;
+.second-section-btn {
+    margin-top: 18px;
 }
 
 .third-section-p {
@@ -99,4 +104,13 @@ form input:first-of-type {
 
 form input:last-of-type {
     width: 10%;
+}
+
+.footer-links {
+    padding: 30px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
 }
